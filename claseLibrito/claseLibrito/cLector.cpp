@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
+
 #include "cLector.h"
-#include <iostream>
-#include <ctime>
+
 tm cLector::convertirFecha()
 {
     // Variables para almacenar año, mes y día como enteros

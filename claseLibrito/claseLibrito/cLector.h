@@ -1,7 +1,10 @@
 #pragma once
 #include <string>
 #include <sstream>
+#include <iostream>
+#include <ctime>
 #include "cLibrito.h"
+
 using namespace std;
 
 class cLector
