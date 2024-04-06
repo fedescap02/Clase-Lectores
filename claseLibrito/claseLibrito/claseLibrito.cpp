@@ -17,8 +17,8 @@ int main()
     Lector1->leer_libro(100);
     //librito1->imprimir();
     getchar();
-    delete librito1;
-    delete Lector1;
+
+
     cLibrito librito2("Hary Postre", 600, 50, "Se lava la carita con agua y con jabon", "Almada", "Sunchales");
     cLector  Lector2("Sol", "42314015", "Insegura", "2001-24-06", &librito2);
     Lector2.imprimir();
@@ -29,5 +29,13 @@ int main()
     cout << "Vas por la pagina nro:" << librito2.get_indice() << endl;
     getchar();
     //librito2.imprimir();
+
+    cout << Lector1->get_nombre() << " tiene " << Lector1->get_edad() << " años"<<endl;
+    getchar();
+
+    delete Lector1;
+    delete librito1;
+
+    return 0;
 }
 

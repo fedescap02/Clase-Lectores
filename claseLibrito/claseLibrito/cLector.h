@@ -14,6 +14,7 @@ private:
 	string celular;
 	string fecha_nac; // "2024-04-04" 
 	cLibrito* librito;
+	tm convertirFecha();
 public:
 	cLector(string nombre, string dni, string apellido, string fecha_nac,cLibrito* librito);
 	string get_dni();
